@@ -1,0 +1,86 @@
+{
+    "Core Functions" : [
+                        
+                        {
+                        "key" : "activation",
+                        "cmd_id" : "0x04",
+                        "label" : "Activate Drone",
+                        "ack" : true,
+                        "ack_size" : 2,
+                        "info" : "Supported on STM32.",
+                        },
+                        
+                        {
+                        "key" : "openValveOne",
+                        "cmd_id" : "0x4D",
+                        "label" : "Valve 1 - OPEN",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "closeValveOne",
+                        "cmd_id" : "0x4E",
+                        "label" : "Valve 1 - CLOSE",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        
+                        {
+                        "key" : "openValveTwo",
+                        "cmd_id" : "0x4F",
+                        "label" : "Valve 2 - OPEN",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "closeValveTwo",
+                        "cmd_id" : "0x50",
+                        "label" : "Valve 2 - CLOSE",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "openValveThree",
+                        "cmd_id" : "0x51",
+                        "label" : "Valve 3 - OPEN",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "closeValveThree",
+                        "cmd_id" : "0x52",
+                        "label" : "Valve 3 - CLOSE",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "openValveFour",
+                        "cmd_id" : "0x53",
+                        "label" : "Valve 4 - OPEN",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "closeValveFour",
+                        "cmd_id" : "0x54",
+                        "label" : "Valve 4 - CLOSE",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "openValveFive",
+                        "cmd_id" : "0x55",
+                        "label" : "Valve 5 - OPEN",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        {
+                        "key" : "closeValveFive",
+                        "cmd_id" : "0x56",
+                        "label" : "Valve 5 - CLOSE",
+                        "ack" : true,
+                        "ack_size" : 1,
+                        },
+                        
+    ]
+}
